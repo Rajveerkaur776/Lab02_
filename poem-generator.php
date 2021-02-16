@@ -18,7 +18,7 @@
             
         }
         // 5. logic error - no ! 
-        if(!isset($submit)) {
+        if(isset($submit)) {
             poemDisplay(); 
         }
         else {
